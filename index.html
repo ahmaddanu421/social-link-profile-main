@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Social links profile</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        color: white;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <style>
+      @font-face {
+        font-family: Inter;
+        src: url(assets/fonts/Inter-VariableFont_slnt\wght.ttf)
+          format("truetype");
+      }
+
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      :root {
+        --dark-grey: hsl(0, 0%, 12%);
+        --off-black: hsl(0, 0%, 8%);
+        --green: hsl(75, 94%, 57%);
+        --grey: hsl(0, 0%, 20%);
+      }
+      .content-container {
+        background-color: var(--off-black);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+      }
+      .card-container {
+        background-color: var(--dark-grey);
+        padding: 15px;
+        width: 336px;
+        border-radius: 7px;
+      }
+      h3 {
+        color: var(--green);
+        font-family: Inter, Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 10px;
+      }
+      h1 {
+        color: white;
+        font-family: Inter, Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-top: 20px;
+      }
+      img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 40px;
+      }
+      .social {
+        color: white;
+        background-color: var(--grey);
+        margin: 15px;
+        padding: 15px;
+        font-family: Inter, Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-weight: bolder;
+        border-radius: 5px;
+      }
+      .social:hover {
+        background-color: var(--green);
+        color: var(--off-black);
+      }
+      p {
+        color: white;
+        font-family: Inter, Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 14px;
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 
+  Jessica Randall
+  London, United Kingdom
+  "Front-end developer and avid reader."
+
+  GitHub
+  Frontend Mentor
+  LinkedIn
+  Twitter
+  Instagram
+   -->
+    <div class="content-container">
+      <div class="card-container">
+        <img src="assets/images/avatar-jessica.jpeg" alt="Jessica" />
+
+        <h1 class="name">Jessica Randall</h1>
+        <h3 class="location">London, United Kingdom</h3>
+        <p class="description">"Front-end developer and avid reader."</p>
+
+        <div class="social">Github</div>
+        <div class="social">Frontend Mentor</div>
+        <div class="social">LinkedIn</div>
+        <div class="social">Twitter</div>
+        <div class="social">Instagram</div>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Ahmad Ibnu</a>.
+      </div>
+    </div>
+  </body>
+</html>
